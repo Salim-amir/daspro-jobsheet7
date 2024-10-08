@@ -13,7 +13,7 @@ public class SiakadWhile16 {
             
         
         while (i < jml) {
-            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("Masukkan Nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
             if (nilai < 0 || nilai > 100) {
