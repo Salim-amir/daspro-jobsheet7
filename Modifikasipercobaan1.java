@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SiakadFor16 {
+public class Modifikasipercobaan1 {
 public static void main(String[] args) {
     Scanner input16 = new Scanner(System.in);
     double nilai, tertinggi = 0, terendah = 100;
@@ -13,6 +13,10 @@ public static void main(String[] args) {
     if (nilai < terendah) {
         terendah = nilai; 
         
+    }if (nilai >= 60) {
+        System.out.println("Mahasiswa lulus");;
+    } else {
+        System.out.println("Mahasiswa tidak lulus");
     }
     
     } System.out.println("Nilai tertinggi: " + tertinggi);
