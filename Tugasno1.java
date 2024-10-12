@@ -18,15 +18,11 @@ public class Tugasno1 {
                 continue;
             } 
 
-            // Jika input 0, proses selesai
+        
             if (tiket == 0) {
                 break;
             }
 
-            // Menambahkan jumlah tiket ke total
-           
-
-            // Menentukan diskon berdasarkan jumlah tiket yang dibeli
             double diskon = 0;
             if (tiket > 10) {
                 diskon = 0.15;
